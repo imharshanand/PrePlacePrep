@@ -46,8 +46,7 @@ https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon
 * Last Index of 1
 * Spirally traversing a matrix
 * Largest Number formed from an Array
-<br>
-<br>
+
 **Strings :**
 *...
 *...
