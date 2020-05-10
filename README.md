@@ -20,10 +20,9 @@ https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon
 * Divide and Conquer
 * Backtracking
 * Bit Magic
-<br>
-<br>
+
 **Arrays :**
-<br>
+
 * Subarray with given sum
 * Count the triplets
 * Kadane’s Algorithm
