@@ -11,24 +11,30 @@ public class RemoveAdjacent
         String s = sc.next();
         System.out.println(removeDuplicates(s));
     }
-    public static String removeDuplicates(String S) {
+
+    public static String removeDuplicates(String S)
+    {
         Stack<Character> stack = new Stack<>();
         int N = S.length();
 
-        for (int i = 0; i < N; i++){
-            if (!stack.isEmpty() && S.charAt(i) == stack.peek()){
+        for (int i = 0; i < N; i++)
+        {
+            if (!stack.isEmpty() && S.charAt(i) == stack.peek())
+            {
                 stack.pop();
-            }else{
+            }
+            else
+            {
                 stack.push(S.charAt(i));
             }
         }
 
         StringBuilder sb = new StringBuilder();
 
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty())
+        {
             sb.append(stack.pop());
         }
-
         return sb.reverse().toString();
     }
 }
