@@ -1,9 +1,9 @@
 package String;
 
-import java.sql.SQLType;
 import java.util.Scanner;
 
 /*
+Dynamic Programming
 L: https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0
 P: Given a string S, find the longest palindromic substring in S.
     Substring of string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S).
