@@ -115,5 +115,19 @@ public class LinkedList {
 
         // Print the LinkedList
         printList(list);
+        LinkedList head = list;
+
+//        if(head == null) return true;
+//        String s = "";
+//        while(head != null)
+//        {
+//            s = s + String.valueOf(head.data);
+//            head = head.next;
+//        }
+//        StringBuilder sb = new StringBuilder(s);
+//        sb.reverse();
+//        if(s.equals(sb))
+//            return true;
+//        return false;
     }
 }
