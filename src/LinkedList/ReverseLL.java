@@ -44,6 +44,8 @@ public ListNode reverseList(ListNode head)
         ListNode prev = null;
         ListNode cur_node = head;
         while(cur_node != null)
+        //NCnPCN
+        //NCPCN Newyork City Police
         {
             ListNode next_node = cur_node.next;
             cur_node.next = prev;
