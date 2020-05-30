@@ -42,7 +42,7 @@ class TEST
             head = head.next;
         }
 
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<>();
 
         while(h != null)
         {
