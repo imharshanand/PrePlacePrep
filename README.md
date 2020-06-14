@@ -186,13 +186,16 @@ https://leetcode.com/problemset/all/
 
 **Heap :**
 
-* Find median in a stream
+* Find median in a stream - https://leetcode.com/problems/find-median-from-data-stream/
 * Heap Sort
-* Operations on Binary Min Heap
-* Rearrange characters
-* Kth largest element in a stream
-* Merge K sorted linked lists
-* Kth largest element in a stream
+* Operations on Binary Min 
+* (Heap Second Minimum Node In a Binary Tree) - https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
+* Rearrange characters - https://leetcode.com/problems/rearrange-words-in-a-sentence/
+* Kth largest element in a array - https://leetcode.com/problems/kth-largest-element-in-an-array/
+* Kth largest element in a bst - https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+* Kth largest element in a Sorted Matrix - https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+* Merge K sorted linked lists - https://leetcode.com/problems/merge-two-sorted-lists/
+* Kth largest element in a stream - https://leetcode.com/problems/kth-largest-element-in-a-stream/
 
 **Recursion :**
 
@@ -332,7 +335,7 @@ https://leetcode.com/problemset/all/
 * Longest Consecutive 1’s
 * Sparse Number
 * Alone in a couple
-* Maximum subset XOR
+* Maximum subset XOR - https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
 
 **Binary :**
 * Sum of Two Integers - https://leetcode.com/problems/sum-of-two-integers/
