@@ -367,7 +367,7 @@ https://leetcode.com/problemset/all/
 
 <br>
 
-* 280. Wiggle Sort
+* 280 Wiggle Sort
 * 253	Meeting Rooms II 
 * 296	Best Meeting Point 
 * 683	K Empty Slots 
