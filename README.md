@@ -365,6 +365,8 @@ https://leetcode.com/problemset/all/
 
 <img src="Screenshots/Leetcode Top Freq.png"></td>
 
+<br>
+
 * 280. Wiggle Sort
 * 253	Meeting Rooms II 
 * 296	Best Meeting Point 
