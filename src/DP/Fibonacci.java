@@ -14,7 +14,7 @@ public class Fibonacci
         System.out.println(getFibonacciNumberBottomUpWithCache(n));
         System.out.println(getFibonacciNumberTopDown(n));
     }
-    
+
     public static HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
     public static HashMap<Integer, Integer> hm2 = new HashMap<Integer, Integer>();
 
