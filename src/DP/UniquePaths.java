@@ -1,4 +1,5 @@
 //UniquePaths
+/*
 class Solution
 {
     public int uniquePaths(int m, int n)
@@ -19,7 +20,7 @@ class Solution
             return dp[m][n] = totalUniquePaths(m-1, n, dp) +  totalUniquePaths(m, n-1, dp);
     }
 }
-
+*/
 // https://leetcode.com/problems/unique-paths/
 // The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid
 
