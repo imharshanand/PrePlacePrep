@@ -1,4 +1,4 @@
-# GFK-IMP
+# PrePlacePrep
 **GeeksforGeek & LeetCode IMPORTANT Problems** <br>
 **Must Do Coding Questions for Companies like Amazon, Microsoft, Adobe, etc..**
 <br>
