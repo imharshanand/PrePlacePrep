@@ -363,4 +363,5 @@ https://leetcode.com/problemset/all/
 * Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/
 * Find Median from Data Stream - https://leetcode.com/problems/find-median-from-data-stream/
 
+**300+ Questions**
 <img src="Screenshots/Leetcode Top Freq.png"></td>
