@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedListProblems;
 
 // Java program to implement
 // a Singly Linked List

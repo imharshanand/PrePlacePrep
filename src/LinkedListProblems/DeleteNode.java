@@ -1,6 +1,4 @@
-package LinkedList;
-
-import java.util.Scanner;
+package LinkedListProblems;
 
 public class DeleteNode
 {

@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedListProblems;
 
 public class MergeSortedList
 {
