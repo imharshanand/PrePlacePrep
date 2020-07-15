@@ -14,7 +14,8 @@ public class KnapsackProblem {
         if (n == 0 || W == 0)
             return 0;
 
-        // If weight of the nth item is more than Knapsack capacity W, then this item cannot be included in the optimal solution
+        // If weight of the nth item is more than Knapsack capacity W,
+        // then this item cannot be included in the optimal solution
         if (wt[n - 1] > W)
             return KS(W, wt, val, n - 1);
 
