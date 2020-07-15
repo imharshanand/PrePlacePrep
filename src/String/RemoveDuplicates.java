@@ -13,7 +13,7 @@ public class RemoveDuplicates
         while(tc-- >0)
         {
             String s = sc.nextLine();
-            HashSet<String> hset = new HashSet<String >();
+            HashSet<String> hset = new HashSet<>();
             for(int i=0; i<s.length(); i++)
                 hset.add(s.substring(i,i+1));
 
