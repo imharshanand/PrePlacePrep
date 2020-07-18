@@ -9,9 +9,11 @@ public class LLTest {
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<>();
 
-        List<Integer> l = new LinkedList<>();
-        List<Integer> al = new ArrayList<>();
-        List<Integer> stack = new Stack<>();
-        ArrayList<Integer> all = new ArrayList<>();
+        List<List<Integer>> l = new LinkedList<>();
+//        List<Integer> al = new ArrayList<>();
+//        List<Integer> stack = new Stack<>();
+//        ArrayList<Integer> all = new ArrayList<>();
+
+
     }
 }
