@@ -2,6 +2,7 @@ package Hashing;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 public class HashMapDemo
 {
@@ -21,6 +22,24 @@ public class HashMapDemo
         System.out.println(hm.keySet());
 
         System.out.println(hm.get('c'));
+
+        //Traversal
+        Iterator it = hm.entrySet().iterator();
+        while (it.hasNext())
+        {
+            Map.Entry pair = (Map.Entry)it.next();
+            char key = (char)pair.getKey();
+            int val = (int)pair.getValue();
+            System.out.println(key + " = " + val);
+        }
+
+        //Traversal
+        for(Map.Entry pair : hm.entrySet())
+        {
+            char key = (char)pair.getKey();
+            int val = (int)pair.getValue();
+            System.out.println(key + " = " + val);
+        }
 
     }
 }
@@ -48,4 +67,25 @@ putIfAbsent(K key, V value): This method If the specified key is not already ass
 replace(K key, V value): This method replaces the entry for the specified key only if it is currently mapped to some value.
 replace(K key, V oldValue, V newValue): This method replaces the entry for the specified key only if currently mapped to the specified value.
 replaceAll(BiFunction<K, V> function): This method replaces each entry’s value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.
+ */
+
+/*
+Traversal
+=========
+Map<String, Object> map = ...;
+
+for (String key : map.keySet()) {
+    // ...
+}
+=========
+for (Object value : map.values()) {
+    // ...
+}
+=========
+for (Map.Entry<String, Object> entry : map.entrySet()) {
+    String key = entry.getKey();
+    Object value = entry.getValue();
+    // ...
+}
+=========
  */
