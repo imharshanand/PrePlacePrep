@@ -27,12 +27,31 @@ public class ObjectStore {
             Store store = new Store(no,name,marks);
             hm.put(i,store);
         }
+        // Traversal using Iterator
         Iterator it = hm.entrySet().iterator();
         while(it.hasNext())
         {
-            Map.Entry pair = (Map.Entry)it.next();
+            Map.Entry<Integer, Store> pair = (Map.Entry)it.next();
             System.out.println("Key: "+pair.getKey());
+
+            //System.out.println(pair.getValue().marks); // Must use <> // Map.Entry<Integer, Store>
+
             System.out.println(hm.get(pair.getKey()).no);
+
+            System.out.println(hm.get(pair.getKey()).name);
+            System.out.println("Size of Linked List: "+hm.get(pair.getKey()).marks.size());
+            for(int i=0; i<hm.get(pair.getKey()).marks.size(); i++) {
+                System.out.println(hm.get(pair.getKey()).marks.get(i));
+            }
+        }
+        // Traversal using for
+        for(Map.Entry<Integer, Store> pair : hm.entrySet())
+        {
+            System.out.println("Key: "+pair.getKey());
+            // System.out.println(pair.getValue().marks); // Must use <> // Map.Entry<Integer, Store>
+
+            System.out.println(hm.get(pair.getKey()).no);
+
             System.out.println(hm.get(pair.getKey()).name);
             System.out.println("Size of Linked List: "+hm.get(pair.getKey()).marks.size());
             for(int i=0; i<hm.get(pair.getKey()).marks.size(); i++) {
