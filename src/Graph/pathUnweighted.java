@@ -19,10 +19,8 @@ public class pathUnweighted
             adj.add(new ArrayList<Integer>());
         }
 
-        // Creating graph given in the above diagram.
-        // add_edge function takes adjacency list, source
-        // and destination vertex as argument and forms
-        // an edge between them.
+        // Creating graph given in the above diagram. add_edge function takes adjacency list, source
+        // and destination vertex as argument and forms an edge between them.
         addEdge(adj, 0, 1);
         addEdge(adj, 0, 3);
         addEdge(adj, 1, 2);
