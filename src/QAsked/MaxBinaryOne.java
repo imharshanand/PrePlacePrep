@@ -28,7 +28,7 @@ public class MaxBinaryOne
             int j = i - 1;
 
 		    /* Move elements of arr[0..i-1] and aux[0..i-1], such that elements of aux[0..i-1] are
-		    greater than key1, to one position ahead of their current position */
+		    greater than key 1, to one position ahead of their current position */
 
             while (j >= 0 && aux[j] < key1)
             {
