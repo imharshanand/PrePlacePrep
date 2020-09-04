@@ -1,8 +1,8 @@
 package Graph;
 
 import java.util.ArrayList;
-        import java.util.LinkedList;
-        import java.util.List;
+import java.util.LinkedList;
+import java.util.List;
 
 public class CycleDirGraph {
 
@@ -20,8 +20,7 @@ public class CycleDirGraph {
 
     // This function is a variation of DFSUtil() in
     // https://www.geeksforgeeks.org/archives/18212
-    private boolean isCyclicUtil(int i, boolean[] visited,
-                                 boolean[] recStack)
+    private boolean isCyclicUtil(int i, boolean[] visited,boolean[] recStack)
     {
 
         // Mark the current node as visited and
